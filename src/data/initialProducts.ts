@@ -1,0 +1,123 @@
+import { Product } from '../types/store';
+
+export const INITIAL_PRODUCTS: Product[] = [
+  // --- 1. KAYMAIRA F&B ---
+  {
+    id: 'kfb-dendeng',
+    name: 'KAYMAIRA READY-TO-EAT DAGING DENDENG',
+    nameEn: 'KAYMAIRA READY-TO-EAT DAGING DENDENG',
+    category: 'KAYMAIRA F&B',
+    price: 10.9,
+    originalPrice: 12.9,
+    description: 'Daging dendeng sedia dimakan yang dimasak lembut dengan rasa pedas manis karamel yang sedap. Pek retort aluminium berkualiti tinggi yang mudah dibawa ke mana-mana!',
+    descriptionEn: 'Ready-to-eat tender spiced caramelized beef dendeng. Packed in a convenient, travel-friendly retort pouch with authentic rich sweet-spicy flavors!',
+    features: [
+      'Pek Sedia Dimakan (Ready-to-Eat)',
+      'Berat Bersih: 100g',
+      'Rasa Sedap & Daging Lembut',
+      'Mudah Dibawa Ke Mana-mana (Travel-Friendly)',
+      'Dikilangkan Oleh: Sudip Kuali',
+    ],
+    featuresEn: [
+      'Ready-to-Eat Retort Pouch',
+      'Net Weight: 100g',
+      'Delicious & Tender Texture',
+      'Travel-Friendly & Portable',
+      'Manufactured by: Sudip Kuali',
+    ],
+    image: '/src/assets/images/regenerated_image_1792072392831.jpg',
+    badge: 'Pilihan Hangat',
+    badgeEn: 'Best Seller',
+    inStock: true,
+    weightOrSize: '100g',
+  },
+
+  // --- 2. KAYMAIRA BEAUTY (Product 1: Lipmatte) ---
+  {
+    id: 'kbt-lipmatte',
+    name: 'KAYMAIRA LIPMATTE',
+    nameEn: 'KAYMAIRA LIPMATTE',
+    category: 'KAYMAIRA BEAUTY',
+    price: 15.0,
+    originalPrice: 20.0,
+    description: 'Lipmatte bibir bertekstur baldu lembut yang ringan dan tahan lama. Dilengkapi 2 pilihan variasi warna yang mempesona (Kod 01 & Kod 02).',
+    descriptionEn: 'Velvety-matte long-lasting lightweight liquid lipstick available in 2 gorgeous shades (01 and 02). Stylish keychain loop cap packaging for easy touch-ups.',
+    features: [
+      '2 Pilihan Variasi: 01 dan 02',
+      'Kemasan Matte Lembut Tak Mengeringkan Bibir',
+      'Tahan Lama & Tidak Melekit',
+      'Reka Bentuk Tiub Comel Bergaya',
+    ],
+    featuresEn: [
+      '2 Color Variants: 01 and 02',
+      'Soft Non-Drying Matte Finish',
+      'Long-Lasting & Non-Sticky',
+      'Stylish Loop Cap Portable Tube',
+    ],
+    variants: ['01', '02'],
+    image: '/src/assets/images/kaymaira_lipmatte_variants_1792071237207.jpg',
+    badge: '2 Variasi (01 & 02)',
+    badgeEn: '2 Variants (01 & 02)',
+    inStock: true,
+    weightOrSize: 'Tiub Lipmatte',
+  },
+
+  // --- 3. KAYMAIRA BEAUTY (Product 2: Aromatherapy Oil) ---
+  {
+    id: 'kbt-aroma-oil',
+    name: 'KAYMAIRA AROMATHERAPY OIL',
+    nameEn: 'KAYMAIRA AROMATHERAPY OIL',
+    category: 'KAYMAIRA BEAUTY',
+    price: 17.0,
+    originalPrice: 22.0,
+    description: 'Minyak aromaterapi roll-on dengan haruman Sweet Floral yang menenangkan minda, mengurangkan tekanan dan memberi kesegaran berpanjangan bila-bila masa.',
+    descriptionEn: 'Calming Sweet Floral roll-on aromatherapy essential blend with a natural wood cap. Helps relieve stress, promote relaxation, and refresh senses anytime.',
+    features: [
+      'Variasi: Sweet Floral',
+      'Botol Kaca Roll-On Mudah Digunakan',
+      'Penutup Kayu Semulajadi Elegan',
+      'Aroma Bunga Lembut Menenangkan',
+    ],
+    featuresEn: [
+      'Variant: Sweet Floral',
+      'Convenient Glass Roll-On Bottle',
+      'Natural Wood Bamboo Cap',
+      'Soothing & Relaxing Floral Aroma',
+    ],
+    variants: ['Sweet Floral'],
+    image: '/src/assets/images/kaymaira_sweet_floral_oil_1792071237916.jpg',
+    badge: 'Sweet Floral',
+    badgeEn: 'Sweet Floral',
+    inStock: true,
+    weightOrSize: 'Roll-On 10ml',
+  },
+
+  // --- 4. TVETMARA (Raban Natural Soap) ---
+  {
+    id: 'tvt-soap',
+    name: 'RABAN NATURAL SOAP',
+    nameEn: 'RABAN NATURAL SOAP',
+    category: 'TVETMARA',
+    price: 16.0,
+    originalPrice: 23.0,
+    description: 'Sabun herba buatan tangan artisan (cold-processed) berasaskan bahan botani semulajadi. Corak swirl yang indah, membersihkan kulit tanpa bahan kimia berbahaya.',
+    descriptionEn: 'Handcrafted cold-processed botanical artisan soap bar featuring delicate pastel swirl patterns. Formulated with natural herbs, free from harmful chemicals.',
+    features: [
+      'Sabun Kraf Herba Buatan Tangan (Handmade Artisan)',
+      'Bebas Bahan Kimia Berbahaya (Free from Harmful Chemicals)',
+      'Saiz 5 oz Bar Premium',
+      'Sokongan Pengrajin Inovasi TVETMARA',
+    ],
+    featuresEn: [
+      'Handcrafted Herbal Artisan Soap',
+      'Free from Harmful Chemicals',
+      'Premium 5 oz Bar',
+      'Empowering Local TVETMARA Crafts',
+    ],
+    image: '/src/assets/images/raban_nature_artisan_soap_1792071237664.jpg',
+    badge: 'Artisan Soap',
+    badgeEn: 'Artisan Soap',
+    inStock: true,
+    weightOrSize: '5 oz Bar',
+  },
+];
